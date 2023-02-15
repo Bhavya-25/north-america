@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>north-america-egg-bank</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- header sectionn start -->
+    <header class="north_american_header">
+        <nav class="north_american_navbar">
+            <div class="nav_logo">
+                <img src="assets/icons/header icon svg.svg" alt="north_american_logo">
+                <h2 class="nav_text t_pink">North American Egg bank
+                </h2>
+            </div>
+            <!-- toggle section start -->
+            <div class="toggle">
+                <img src="assets/icons/menu icon.svg" alt="mennu icon">
+            </div>
+            <!-- toggle section end -->
+            <!-- nav item section start -->
+            <ul class="nav_item ">
+                <li class="nav_list"><a href="#"> Find your perfect Donor<img src="assets/icons/dropdown icon.svg"
+                            alt="dropdown_icon "></a></li>
+                <li class="nav_list"><a href="#">Services<img src="assets/icons/dropdown icon.svg"
+                            alt="dropdown_icon "></a></li>
+                <li class="nav_list"><a href="#">About us<img src="assets/icons/dropdown icon.svg"
+                            alt="dropdown_icon "></a></li>
+                <li class="nav_list">Blog</li>
+                <li class="nav_list">Contact us</li>
+            </ul>
+            <!-- nav section end -->
+            <!-- seacrch icon -->
+            <div class="search_icon">
+                <img src="assets/icons/search icon.svg " alt="search icon">
+            </div>
+            <!-- search icon end -->
+            <!-- nav login  section start -->
+            <div class="nav_login_sec">
+                <div class="nav_login_item">
+                    <img src="assets/icons/login icon.svg" alt="login icon">
+                    <h2 class="nav_login_text">Log in</h2>
+                </div>
+                <div class="nav_login_item">
+                    <img src="assets/icons/register icon.svg" alt="register icon">
+                    <h2 class="nav_login_text">Log in</h2>
+                </div>
+            </div>
+            <!-- nav login section -->
+        </nav>
+    </header>
+    <!-- header section end -->
+    <!-- banner section start -->
+    <div class=" tiffneyblue_bg banner_section">
+        <div class="banner_item">
+            <div class="bannner_text">
+                <h2 class="banner_heading t_white">Register to get access to all egg donor profiles!</h2>
+                <button class="banner_btn pink_btn">
+                    <img src="assets/icons/banner btn icon.svg " alt="banner icon">
+                    Find you perfect donor
+                </button>
+            </div>
+            <div class="banner_img_section">
+                <img src="assets/images/banner img.png" alt="banner_img">
+            </div>
+        </div>
+    </div>
+    <!-- banner section end -->
+    <!-- main  section start -->
+    <!-- filter section start -->
+    <main class="container">
+        <section class="filter_Critieria ">
+            <div class="filter_content ">
+                <h2 class="filter_text">Filter Critieria</h2>
+                <img src="assets/icons/searchicon.svg" alt="searchicon">
+            </div>
+            <div class="filter_form_sec">
+                <div class="filter_form_checkbox">
+                    <h2 class="filter_formheading">OOCYTES PUBLISHED</h2>
+                    <form>
+                        <div class="filter_checkbox">
+                            <input type="checkbox" id="chk1">
+                            <label for="chk1">2-5</label>
+                        </div>
+                        <div class="filter_checkbox">
+                            <input type="checkbox" id="chk2">
+                            <label for="chk2">2-5</label>
+                        </div>
+                        <div class="filter_checkbox">
+                            <input type="checkbox" id="chk3">
+                            <label for="chk3">2-5</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="filter_form_checkbox">
+                    <h2 class="filter_formheading">Blod type</h2>
+                    <form>
+                        <div class="filter_checkbox">
+                            <input type="checkbox" id="chk4">
+                            <label for="chk4">B(III) Rh+</label>
+                        </div>
+                        <div class="filter_checkbox">
+                            <input type="checkbox" id="chk5">
+                            <label for="chk5">A(II) Rh+</label>
+                        </div>
+                        <div class="filter_checkbox">
+                            <input type="checkbox" id="chk6">
+                            <label for="chk6">o(II) Rh+</label>
+                        </div>
+                        <div class="filter_checkbox">
+                            <input type="checkbox" id="chk7">
+                            <label for="chk7">A(II) Rh-</label>
+                        </div>
+                        <div class="filter_checkbox">
+                            <input type="checkbox" id="chk8">
+                            <label for="chk8">aB(IV) Rh+</label>
+                        </div>
+                        <div class="filter_checkbox">
+                            <input type="checkbox" id="chk9">
+                            <label for="chk9">O(I) Rh-</label>
+                        </div>
+                    </form>
+                </div>
+                <!-- input range start -->
+                <form>
+                    <div class="range_inputs">
+                        <h3 class="filter_formheading">Weight (kg)</h3>
+                        <div class="range_font">
+                            <div class="multi-range">
+                                <label class="multi-range_label" for="">From 16 to 45</label>
+                                <input type="range" min="16" max="45" step="1" value="" class="lower" />
+                            </div>
+                            <div class="min_max">
+                                <span class="min" id="minimum">0</span>
+                                <span class="max" id="maximum">45</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="range_inputs">
+                        <h3 class="filter_formheading">
+                            <span> Height (kg)</span>
+                        </h3>
+                        <div class="range_font">
+                            <div class="multi-range">
+                                <label class="multi-range_label" for="">From 160 to 175</label>
+                                <input type="range" min="16" max="45" step="1" value="" class="lower" />
+                            </div>
+                            <div class="min_max">
+                                <span class="min" id="minimum">160</span>
+                                <span class="max" id="maximum">175</span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <!-- input range end -->
+                <div class="filter_form_checkbox">
+                    <h2 class="filter_formheading">NATURAL HAIR COLOUR</h2>
+                    <form>
+                        <div class="filter_checkbox">
+                            <input type="checkbox" id="chk10">
+                            <label for="chk10">Brown</label>
+                        </div>
+                        <div class="filter_checkbox">
+                            <input type="checkbox" id="chk11">
+                            <label for="chk11">Blond</label>
+                        </div>
+                        <div class="filter_checkbox">
+                            <input type="checkbox" id="chk12">
+                            <label for="chk12">black</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="filter_form_checkbox">
+                    <h2 class="filter_formheading">Hair Type</h2>
+                    <form>
+                        <div class="filter_checkbox">
+                            <input type="checkbox" id="chk13">
+                            <label for="chk13">Curly</label>
+                        </div>
+                        <div class="filter_checkbox">
+                            <input type="checkbox" id="chk14">
+                            <label for="chk14">Straight</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="filter_form_checkbox">
+                    <h2 class="filter_formheading">Race</h2>
+                    <form>
+                        <div class="filter_checkbox">
+                            <input type="checkbox" id="chk15">
+                            <label for="chk15">Coucation</label>
+                        </div>
+                        <div class="filter_checkbox">
+                            <input type="checkbox" id="chk16">
+                            <label for="chk16">African</label>
+                        </div>
+                        <div class="filter_checkbox">
+                            <input type="checkbox" id="chk17">
+                            <label for="chk17">African American</label>
+                        </div>
+                        <div class="filter_checkbox">
+                            <input type="checkbox" id="chk18">
+                            <label for="chk18">Asian</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="filter_form_checkbox">
+                    <h2 class="filter_formheading">NATURAL EYE COLOUR</h2>
+                    <form>
+                        <div class="filter_checkbox">
+                            <input type="checkbox" id="chk19">
+                            <label for="chk19">Green</label>
+                        </div>
+                        <div class="filter_checkbox">
+                            <input type="checkbox" id="chk20">
+                            <label for="chk20">Gray</label>
+                        </div>
+                        <div class="filter_checkbox">
+                            <input type="checkbox" id="chk21">
+                            <label for="chk21">Black</label>
+                        </div>
+                        <div class="filter_checkbox">
+                            <input type="checkbox" id="chk22">
+                            <label for="chk22">Blue</label>
+                        </div>
+                        <div class="filter_checkbox">
+                            <input type="checkbox" id="chk23">
+                            <label for="chk23">Hazel</label>
+                        </div>
+                        <div class="filter_checkbox">
+                            <input type="checkbox" id="chk24">
+                            <label for="chk2">Brown</label>
+                        </div>
+                    </form>
+                </div>
+                <form>
+                    <div class="range_inputs">
+                        <h3 class="filter_formheading">Bmi</h3>
+                        <div class="range_font">
+                            <div class="multi-range">
+                                <label class="multi-range_label" for="">From 16 to 25</label>
+                                <input type="range" min="16" max="25" step="1" value="" class="lower" />
+                            </div>
+                            <div class="min_max">
+                                <span class="min" id="minimum">16</span>
+                                <span class="max" id="maximum">25</span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- filter section end -->
+        <!-- united kindom section start  -->
+        <section class="united_kingdom">
+            <button class="green_button">United Kingdom</button>
+            <div class="baby_section">
+                <div class="baby_img_sec">
+                    <div class="baby_img">
+                        <img src="assets/images/babyimg1.png" alt="baby_img">
+                    </div>
+                </div>
+                <div class="donor_section">
+                    <button class="grey_btn">Donor 2016</button>
+                    <p class="donor_para">An adventurous, sporty and ambitious donor who would love to backpack around
+                        the world she has a round shaped face small nose and clear skin.</p>
+                    <div class="donor_icon_flex">
+                        <div class="donor_icon_sec">
+                            <div class="donor_icon">
+                                <img src="assets/icons/greenicon1.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">Brown / Hazel</h2>
+                            </div>
+                            <div class="donor_icon">
+                                <img src="assets/icons/greenicon2.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">161 cm</h2>
+                            </div>
+                            <div class="donor_icon">
+                                <img src="assets/icons/greenicon3.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">Brown Light</h2>
+                            </div>
+                        </div>
+                        <div class="donor_icon_sec">
+                            <div class="donor_icon">
+                                <img src="assets/icons/greenicon4.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">White</h2>
+                            </div>
+                            <div class="donor_icon">
+                                <img src="assets/icons/greenicon5.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">OLive</h2>
+                            </div>
+                            <div class="donor_icon">
+                                <img src="assets/icons/greenicon6.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">English</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baby_sec_btn">
+                    <a class="pink_btn" href="#">View Profile</a>
+                </div>
+            </div>
+            <!-- ****************************** -->
+            <div class="baby_section">
+                <div class="baby_img_sec">
+                    <div class="baby_img1">
+                        <img src="assets/images/babyimg2.png" alt="baby_img">
+                    </div>
+                </div>
+                <div class="donor_section">
+                    <button class="grey_btn">Donor 2016</button>
+                    <p class="donor_para">An adventurous, sporty and ambitious donor who would love to backpack around
+                        the world she has a round shaped face small nose and clear skin.</p>
+                    <div class="donor_icon_flex">
+                        <div class="donor_icon_sec">
+                            <div class="donor_icon">
+                                <img src="assets/icons/pinkicon1.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">Brown / Hazel</h2>
+                            </div>
+                            <div class="donor_icon">
+                                <img src="assets/icons/pinkicon2.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">161 cm</h2>
+                            </div>
+                            <div class="donor_icon">
+                                <img src="assets/icons/pinkicon3.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">Brown Light</h2>
+                            </div>
+                        </div>
+                        <div class="donor_icon_sec">
+                            <div class="donor_icon">
+                                <img src="assets/icons/pinkicon4.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">White</h2>
+                            </div>
+                            <div class="donor_icon">
+                                <img src="assets/icons/pinkicon5.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">OLive</h2>
+                            </div>
+                            <div class="donor_icon">
+                                <img src="assets/icons/pinkicon6.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">English</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baby_sec_btn">
+                    <a class="pink_btn" href="#">View Profile</a>
+                </div>
+            </div>
+            <!-- ************************ -->
+            <div class="baby_section">
+                <div class="baby_img_sec">
+                    <div class="baby_img">
+                        <img src="assets/images/babyimg1.png" alt="baby_img">
+                    </div>
+                </div>
+                <div class="donor_section">
+                    <button class="grey_btn">Donor 2016</button>
+                    <p class="donor_para">An adventurous, sporty and ambitious donor who would love to backpack around
+                        the world she has a round shaped face small nose and clear skin.</p>
+                    <div class="donor_icon_flex">
+                        <div class="donor_icon_sec">
+                            <div class="donor_icon">
+                                <img src="assets/icons/greenicon1.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">Brown / Hazel</h2>
+                            </div>
+                            <div class="donor_icon">
+                                <img src="assets/icons/greenicon2.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">161 cm</h2>
+                            </div>
+                            <div class="donor_icon">
+                                <img src="assets/icons/greenicon3.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">Brown Light</h2>
+                            </div>
+                        </div>
+                        <div class="donor_icon_sec">
+                            <div class="donor_icon">
+                                <img src="assets/icons/greenicon4.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">White</h2>
+                            </div>
+                            <div class="donor_icon">
+                                <img src="assets/icons/greenicon5.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">OLive</h2>
+                            </div>
+                            <div class="donor_icon">
+                                <img src="assets/icons/greenicon6.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">English</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baby_sec_btn">
+                    <a class="pink_btn" href="#">View Profile</a>
+                </div>
+            </div>
+            <!-- *********************** -->
+            <div class="baby_section">
+                <div class="baby_img_sec">
+                    <div class="baby_img1">
+                        <img src="assets/images/babyimg2.png" alt="baby_img">
+                    </div>
+                </div>
+                <div class="donor_section">
+                    <button class="grey_btn">Donor 2016</button>
+                    <p class="donor_para">An adventurous, sporty and ambitious donor who would love to backpack around
+                        the world she has a round shaped face small nose and clear skin.</p>
+                    <div class="donor_icon_flex">
+                        <div class="donor_icon_sec">
+                            <div class="donor_icon">
+                                <img src="assets/icons/pinkicon1.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">Brown / Hazel</h2>
+                            </div>
+                            <div class="donor_icon">
+                                <img src="assets/icons/pinkicon2.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">161 cm</h2>
+                            </div>
+                            <div class="donor_icon">
+                                <img src="assets/icons/pinkicon3.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">Brown Light</h2>
+                            </div>
+                        </div>
+                        <div class="donor_icon_sec">
+                            <div class="donor_icon">
+                                <img src="assets/icons/pinkicon4.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">White</h2>
+                            </div>
+                            <div class="donor_icon">
+                                <img src="assets/icons/pinkicon5.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">OLive</h2>
+                            </div>
+                            <div class="donor_icon">
+                                <img src="assets/icons/pinkicon6.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">English</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baby_sec_btn">
+                    <a class="pink_btn" href="#">View Profile</a>
+                </div>
+            </div>
+            <!-- ***************** -->
+            <div class="baby_section">
+                <div class="baby_img_sec">
+                    <div class="baby_img">
+                        <img src="assets/images/babyimg1.png" alt="baby_img">
+                    </div>
+                </div>
+                <div class="donor_section">
+                    <button class="grey_btn">Donor 2016</button>
+                    <p class="donor_para">An adventurous, sporty and ambitious donor who would love to backpack around
+                        the world she has a round shaped face small nose and clear skin.</p>
+                    <div class="donor_icon_flex">
+                        <div class="donor_icon_sec">
+                            <div class="donor_icon">
+                                <img src="assets/icons/greenicon1.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">Brown / Hazel</h2>
+                            </div>
+                            <div class="donor_icon">
+                                <img src="assets/icons/greenicon2.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">161 cm</h2>
+                            </div>
+                            <div class="donor_icon">
+                                <img src="assets/icons/greenicon3.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">Brown Light</h2>
+                            </div>
+                        </div>
+                        <div class="donor_icon_sec">
+                            <div class="donor_icon">
+                                <img src="assets/icons/greenicon4.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">White</h2>
+                            </div>
+                            <div class="donor_icon">
+                                <img src="assets/icons/greenicon5.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">OLive</h2>
+                            </div>
+                            <div class="donor_icon">
+                                <img src="assets/icons/greenicon6.svg" alt="donor_icon">
+                                <h2 class="donor_icon_text">English</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baby_sec_btn">
+                    <a class="pink_btn" href="#">View Profile</a>
+                </div>
+            </div>
+            <!-- *************************** -->
+        </section>
+        <!-- united kindom section end  -->
+    </main>
+    <!-- main  section end -->
+    <!-- fotter section start -->
+    <fotter>
+        <section class="fotter">
+            <!-- <div class="fotter_list_flex"> -->
+                <div class="fotter_content">
+                    <ul class="fotter_list">
+                        <li onclick="togleDropdown(event)" class="fotter_item">Find your perfect Donor <img class="dropdown_icon" src="assets/icons/dropdownicon.svg" alt="drpdown"></li>
+                        <li class="fotter_item"> Local ART Regulations</li>
+                        <li class="fotter_item"> International egg donors</li>
+                        <li class="fotter_item">UK donor catalog</li>
+                        <li class="fotter_item"> Asian egg donors</li>
+                        <li class="fotter_item">USA and Canada egg donors</li>
+                        <li class="fotter_item"> Frozen donor embryos</li>
+                        <li class="fotter_item"> Sperm donors</li>
+                    </ul>
+                    <div>
+                    </div>
+                    <ul class="fotter_list">
+                        <li onclick="togleDropdown(event)" class="fotter_item">About us <img class="dropdown_icon" src="assets/icons/dropdownicon.svg" alt="drpdown"></li>
+                        <li class="fotter_item"> Why us?</li>
+                        <li class="fotter_item"> Oocyte quality assurance</li>
+                        <li class="fotter_item"> Success rates</li>
+                        <li class="fotter_item"> Asian egg donors</li>
+                        <li class="fotter_item">USA and Canada egg donors</li>
+                        <li class="fotter_item"> Guarantees</li>
+                        <li class="fotter_item"> Our team</li>
+                    </ul>
+                    <ul class="fotter_list">
+                        <li class="fotter_item">Blog <img class="dropdown_icon" src="assets/icons/dropdownicon.svg" alt="drpdown"></li>
+                    </ul>
+                </div>
+                <div class="flex_icons">
+                    <div>
+                        <div class="social_media_icon">
+                            <div><img src="assets/icons/footericon1.png" alt="socialmediaicon"></div>
+                            <div> <img src="assets/icons/fottericon2.png" alt="socialmediaicon"></div>
+                            <div><img src="assets/icons/footericon3.png" alt="socialmediaicon"></div>
+                            <div><img src="assets/icons/footericon4.png" alt="socialmediaicon"></div>
+                            <div><img src="assets/icons/footericon5.png" alt="socialmediaicon"></div>
+                            <div> <img src="assets/icons/footericon6.png" alt="socialmediaicon"></div>
+                        </div>
+                        <button class="banner_btn pink_btn fotter_btn">
+                            <img src="assets/icons/banner btn icon.svg " alt="banner icon">
+                            Find you perfect donor
+                        </button>
+                    </div>
+
+                    <div class="fotter_image">
+                        <img src="assets/images/fotter icon.png" alt="fottericon">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </fotter>
+    <!-- fotter section end -->
+</body>
+<script>
+    let HeaderToggle = document.querySelector(".toggle");
+    let HeaderNavbar = document.querySelector(".nav_item");
+    HeaderToggle.addEventListener("click", () => {
+        HeaderNavbar.classList.toggle("active");
+    });
+    const togleDropdown = (event) => {
+            event.target.classList.toggle("show");
+        };
+    // onclick
+    // function hide() {
+    //     let hiddenList= document.getElementById("filter_form_sec");
+    //     let height = hiddenList.scrollHeight;
+    //     if (hiddenList.getAttribute("style")) {
+    //     hiddenList.removeAttribute("style");
+    //   } else {
+    //     hiddenList.setAttribute("style", `height: ${height}px`);
+    //   }
+    // }
+    // Window.addEventListener("resize",()=>{
+    //     hide();
+    //     hide();
+    // });
+</script>
+
+</html>

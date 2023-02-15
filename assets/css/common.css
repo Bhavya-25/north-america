@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-family: "Sora", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.t_white {
+  color: #fff;
+}
+
+.t_pink {
+  color: #FF94AB;
+}
+
+.t_grey {
+  color: #747474;
+}
+
+.dark_grey {
+  color: #686868;
+}
+
+.donor_btn {
+  padding: 13px 55px;
+  background-color: transparent;
+  border: 1px solid #686868;
+  border-radius: 7.56px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #686868;
+}
+
+.pink_btn {
+  background-color: #FF94AB;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #fff;
+  border: none;
+  padding: 13px 71px;
+  border-radius: 7.57px;
+  white-space: nowrap;
+}
+
+.grey_btn {
+  background-color: #747474;
+  color: #fff;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  padding: 4px 50px 4px 50px;
+  border: none;
+  border-radius: 3.15px;
+  white-space: nowrap;
+}
+
+.tiffneyblue_bg {
+  background-color: #81D8D0;
+}
+
+.tarabg_color {
+  background-color: #DDF5DD;
+}
+
+.t_tiffneyblue_ {
+  color: #81D8D0;
+}
+
+.border_bottom {
+  border-bottom: 1px solid #C4C4C4;
+}
+
+img {
+  max-width: 100%;
+  line-height: 0;
+}
+
+.container {
+  max-width: 1288px;
+  width: 100%;
+  padding: 0 32px;
+  margin: 0 auto;
+}/*# sourceMappingURL=common.css.map */

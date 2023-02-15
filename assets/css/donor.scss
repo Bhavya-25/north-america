@@ -1,0 +1,705 @@
+@import"common.scss";
+// header class start
+.north_american_navbar{
+    // padding: 29.5px 74px 29.5px 75px;
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    justify-content: space-around;
+}
+.nav_text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+}
+.nav_logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav_item{
+    display: flex;
+    gap: 48px;
+}
+.nav_list{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    a{
+    display: flex;
+    gap: 4px;
+    align-items: baseline;
+}
+}
+.nav_login_sec{
+    display: flex;
+// gap: 20px;
+.nav_login_item:first-child{
+img{
+    border-right: 1px solid #CCCCCC;
+    padding-right: 7px;
+}
+}
+.nav_login_item:nth-child(2){
+    padding-left: 8px;
+}
+}
+.nav_login_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6.12895px;
+    line-height: 8px; 
+}
+.search_icon{
+    display: none;
+}
+.toggle{
+    display: none;
+}
+// header class end
+.banner_section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.banner_btn{
+    display: inline-flex;
+    gap:13px;
+    align-items: center;
+    white-space: nowrap;
+}
+.banner_heading{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 47px;
+    margin-bottom: 34px;
+    max-width: 513px;
+    width: 100%;
+}
+.bannner_text    {
+    padding: 45px 75px;
+    max-width: 645px;
+    width: 100%;
+    
+  }
+  .banner_img_section{
+    height: 100%;
+    // margin: 0 0 0 auto;
+    text-align: right;
+  }
+  .banner_img_section img{
+margin: 0 0 0 auto;
+    display: block;
+    max-height: 319px;
+    height: 100%;
+  }
+// fotter section start
+.fotter{
+    background-color:#4E827D ; 
+    padding: 53px 67px 62px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ .fotter_content{
+     display: contents;
+ }
+ .fotter_item{
+     font-style: normal;
+     font-size: 15px;
+     font-weight: 400;
+     margin-bottom: 14px;
+     color: #fff;
+     .dropdown_icon{
+         display: none;
+     }
+ }
+ .fotter_item:first-child{
+     font-size: 20px;
+     font-weight: 700;
+ }
+ .social_media_icon{
+     margin-bottom: 15px;
+ }
+ .fotter_btn{
+     background-color: transparent;
+     border: 1px solid #fff;
+     margin-bottom: 37px;
+     padding: 13px 15px;
+ }
+ .social_media_icon{
+     display: flex;
+     gap: 10px;
+ }
+ // fotter section end
+//  main section start
+.donor_2016{
+padding: 70px 8px 148px;
+}
+.donor_2016_section{
+    margin-top: 48px;
+    display: flex;
+    // gap: 88px;
+    // flex-wrap: wrap;
+    justify-content: space-between;
+    gap:20px;
+}
+.donor_2016_heading{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28.1px;
+    max-width: 700px;
+    margin-bottom: 45px;
+    display: inline-block;
+}
+.intrest_heading{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 9px;
+    display: inline-block;
+}
+.intrest_text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+.intrest_flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+    align-items: center;
+    border-bottom: 1px solid #C4C4C4;
+    padding-bottom: 40px;
+    max-width: 590px;
+    margin-bottom: 25px;
+}
+.additional_infomation{
+    border-bottom: 1px solid #C4C4C4;
+    padding-bottom: 25px;
+    max-width: 590px;
+    margin-bottom: 53px;
+}
+.profile_section{
+    background-color: #81D8D0;
+    display: inline-block;
+    padding: 32px 58px 59px;
+    border-radius: 7px;
+    margin-bottom: 33px;
+    width: 100%;
+}
+.profile_text{
+    gap: 31px;
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+.donor_icon_flex{
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: 50% 32%;
+    gap: 64px;
+
+}
+.donor_icon_text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.donor_icon{
+    margin-bottom: 24px;
+    display: grid;
+    grid-template-columns: 35px 1fr;
+    align-items: center;
+    gap: 17px;
+}
+// medical section start
+.medical_information{
+    background-color: #FFD8E0;
+    display: inline-block;
+    padding: 21px 45px 40px;
+    border-radius: 7px;
+    margin-bottom:60px ;
+    width: 100%;
+}
+.medical_heading{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140.52%;
+    display: inline-flex;
+    gap: 17px;
+    align-items: center;
+    margin-bottom: 33px;
+}
+.blood_text{
+    padding-bottom: 24px;
+    border-bottom: 1px solid #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height:28.1px;
+    margin-bottom: 26px;
+    width: 100%;
+    span{
+        margin-left: 30px;
+        font-weight: 300;
+    }
+    .blood_span{
+        font-weight: 300;
+        margin: 0;
+    }
+    }
+    .country_flex{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 75px;
+    }
+
+.purchase_heading{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 29px;
+    color: #fff;
+    margin-bottom: 43px;
+    text-align: center;
+}
+// medical section end
+.purchase_option{
+    padding: 38px 31px 56px;
+    background-color: #A7A7A7;
+    border-radius: 18px;
+    height: 100%;
+}
+.country_tretment{
+    margin-bottom: 25px;
+}
+.country_residence{
+    margin-bottom: 25px;
+}
+.country_residence_content{
+    margin-bottom: 53px;
+}
+.country_tratment_select{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+    appearance: none;
+    padding-right: 20px;
+    color: #fff;
+
+}
+.Purchase_Now{
+    padding: 13px 43px;
+    border: 1.5px solid #fff;
+    background-color: transparent;
+    border-radius:7.57px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+    display: block;
+    margin: auto;
+}
+    .country_select{
+        outline: none;
+        border: none;
+        background-color: transparent;
+        border-bottom: 1px solid white;
+        padding-bottom: 20px;
+        appearance: none;
+        padding-right: 35px;
+        background-image: url(../icons/Vector\ 12.svg);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: calc(100% - 25px);
+        color: #fff;
+}
+.country_select:first-child{
+    color: #fff;
+}
+.country_option{
+color: #000;
+}
+.country_heading{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 9px;
+    white-space: nowrap;
+}
+.download_section{
+    display: flex;
+    align-items: center;
+    gap: 69px;
+}
+.download_button{
+    padding: 13px 51px;
+    background-color: #81D8D0;
+    border: none;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+}
+.download_text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+// main section end
+// toggle section start
+@media screen and (max-width: 1440px){
+    // .north_american_navbar{
+    //     gap: 40px;
+    // }
+    .nav_item{
+        gap: 30px;
+    }
+}
+@media screen and (max-width: 1240px){
+    .donor_2016_section{
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .intrest_flex {
+        gap: 10px;
+    }
+    .purchase_option{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .medical_information{
+        margin-bottom: 23px;
+    }
+    .country_flex{
+        gap: 20px;
+    }
+
+}
+@media screen and (max-width: 1200px){
+    .north_american_navbar{
+        padding: 31px 50px;
+        gap: 30px;
+    }
+    .nav_item{
+        gap: 20px;
+    }
+}
+.north_american_navbar{
+    padding: 29.5px 25px;
+}
+
+@media screen and (max-width: 1180px){
+    .country_flex{
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+.nav_logo{
+    display: none;
+}
+.toggle{
+    display: block;
+}
+.nav_item {
+    position: absolute;
+    top: 96px;
+    padding: 30px 20px 100px;
+    height: 100%;
+    left: 0;
+    transform: translateX(-100%);
+    flex-direction: column;
+    max-width: 250px;
+    width: 100%;
+    background-color: #E9E7E3;
+    transition: all 0.9s cubic-bezier(.71, 0, .33, 1.56);
+    overflow-y: scroll;
+}
+.nav_item.active {
+    transform: translateX(0);
+    }
+.search_icon{
+    display: block;
+    margin: 0 0 0 auto;
+}
+.banner_heading{
+    font-size: 29px;
+    line-height: 40px;
+}
+.donor_btn{
+    padding: 6px 13px;
+}
+
+}
+// toggle section end
+// media query
+@media screen and (max-width: 768px){
+.bannner_text{
+    order: 2;
+    text-align: center;
+    padding: 26px 30px;
+    margin: 0 auto;
+}
+.banner_img_section img{
+    width: 100%;
+    max-height: 100%;
+}
+.banner_section{
+    grid-template-columns: 1fr;
+}
+.banner_heading{
+    margin: 0 auto 34px;
+}
+.profile_section{
+    padding: 32px 20px 40px;
+}
+.donor_icon_flex{
+    gap: 10px;
+    text-align: left;
+    place-items: baseline;
+    justify-content: center;
+}
+.donor_2016{
+    text-align: center;
+    padding: 50px 8px 80px;
+}
+
+.intrest_flex{
+margin: 0 auto 24px;
+text-align: center;
+align-items: baseline;
+max-width: 450px;
+}
+.donor_2016_heading{
+font-size: 15px;
+line-height: 20px;    
+max-width:450px;
+text-align: center;
+margin: 0 auto 53px;
+}
+.additional_infomation{
+    max-width: 450px;
+    margin: 0 auto 53px;
+}
+.intrest_heading{
+    font-size: 15px;
+    line-height: 20px;
+}
+.intrest_text{
+  font-size: 15px;
+    line-height: 20px;
+}
+.blood_text{
+    font-size: 15px;
+    line-height: 18px;
+}
+.donor_icon_text{
+    font-size: 15px;
+    line-height: 18px;
+}
+.download_text{
+    font-size: 15px;
+    line-height: 18px;
+}
+.download_section{
+    gap: 40px;
+    justify-content: center;
+}
+.download_button{
+    padding: 10px 30px;
+    font-size: 15px;
+    line-height: 20px;
+}
+.download_button{
+    padding: 10px 30px;
+    font-size: 15px;
+    line-height: 20px;
+}
+// .donor_icon_flex{
+//     grid-template-columns: 170px 189px;
+// }
+}
+@media screen and (max-width: 480px){
+    .fotter{
+        padding: 27px 30px 40px;
+        text-align: left;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .fotter_image img{
+        max-width: 73px;
+        width: 73px;
+    
+    }
+    .flex_icons{
+        order: -1;
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        flex-direction: row-reverse;
+    }
+    .fotter_list{
+        flex-direction: column;
+    }
+    .fotter_item{
+        display: none;
+        .dropdown_icon{
+            display: block;
+        }
+    }
+    .fotter_item:first-child{
+    display: flex;
+    justify-content: space-between;
+    }
+    .fotter_item.show ~ .fotter_item {
+      display: block;
+    }
+    .pink_btn{
+        padding: 6px 30px;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        border-radius: 3.48px;
+    }
+    .banner_btn{
+        display: inline-flex;
+        gap:13px;
+        align-items: center;
+        white-space: nowrap;
+    }
+    .profile_section{
+        padding: 32px 20px 40px;
+    }
+    .donor_icon_flex{
+        gap: 10px;
+        text-align: left;
+        align-items: center;
+        // grid-template-columns: 100px 150px;
+    }
+    .medical_information {
+        padding: 21px 20px 40px;
+    }
+    .donor_icon_text{
+        font-size: 8px;
+        line-height: 12.65px;
+    }
+    .blood_text{
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .country_heading{
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .intrest_heading{
+        font-size: 8px;
+        line-height: 12.65px;
+    }
+    .intrest_text{
+        font-size: 10px;
+        line-height: 12.65px;
+    }
+    .donor_2016_heading{
+        font-size: 10px;
+        line-height: 12.65px;
+    }
+    .donor_icon{
+        margin-bottom: 10px;
+        gap: 7px;
+    }
+    .donor_2016{
+        text-align: center;
+        padding: 50px 8px 80px;
+    }
+    .medical_heading{
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .blood_text{
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .country_select{
+        padding-right: 20px;
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .country_tratment_select {
+        font-size: 8px;
+        line-height: 12px;
+        padding-right: 10px;
+    }
+    .Purchase_Now {
+        font-size: 15px;
+        line-height: 18px;
+        padding: 6px 43px;
+    }
+    .country_flex{
+        gap: 10px;
+    }
+    .download_section{
+        gap: 20px
+        ;
+    }
+    .download_text{
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .download_button{
+        padding: 10px 30px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+}
+@media screen and (max-width: 320px){
+    .flex_icons{
+        gap: 3px;
+    }
+    .fotter_item:first-child{
+        font-size: 16px;
+    }
+    .pink_btn{
+        padding: 3px 20px;
+    }
+    .social_media_icon{
+        gap: 3px;
+    }
+    .banner_btn{
+        gap: 10px;
+    }
+    .intrest_text{
+        font-size: 7px;
+    }
+    .donor_icon_text{
+        font-size: 8px;
+
+    }
+}
